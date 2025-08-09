@@ -11,13 +11,13 @@ class ListScreen extends StatelessWidget {
         backgroundColor: Colors.red,
       ),
 
-      bottomNavigationBar: BottomNavigationBar(items: [
+      bottomNavigationBar: BottomNavigationBar(items: const [
         BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat"),
         BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings"),
         BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings"),
       ] ),
       
-      floatingActionButton: Column(
+      floatingActionButton: const Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           CircleAvatar(),
@@ -25,8 +25,8 @@ class ListScreen extends StatelessWidget {
         ],
       ),
       body: ListView(
-        children: [
-          ListTile(
+        children: const [
+       ListTile(
             leading: CircleAvatar(
               backgroundImage: AssetImage("assets/apple.png"),
             ),
@@ -159,3 +159,17 @@ class ListScreen extends StatelessWidget {
     );
   }
 }
+
+// For First time 
+
+// 1- Git Download 
+// 2- git init 
+// 3- Github desktop (make sure github)
+// 4- add exisiting repo 
+// 5- commit - any Message 
+// 6- push 
+
+// Exisiting code push 
+
+// 5- commit - any Message 
+// 6- push 
