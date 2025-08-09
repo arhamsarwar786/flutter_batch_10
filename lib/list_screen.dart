@@ -1,0 +1,161 @@
+import 'package:flutter/material.dart';
+
+class ListScreen extends StatelessWidget {
+  const ListScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+
+      appBar: AppBar(
+        backgroundColor: Colors.red,
+      ),
+
+      bottomNavigationBar: BottomNavigationBar(items: [
+        BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat"),
+        BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings"),
+        BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Settings"),
+      ] ),
+      
+      floatingActionButton: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          CircleAvatar(),
+         
+        ],
+      ),
+      body: ListView(
+        children: [
+          ListTile(
+            leading: CircleAvatar(
+              backgroundImage: AssetImage("assets/apple.png"),
+            ),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+              ],
+            ),
+          ),
+          ListTile(
+            leading: CircleAvatar(),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+              ],
+            ),
+          ),
+          ListTile(
+            leading: CircleAvatar(),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+              ],
+            ),
+          ),
+          ListTile(
+            leading: CircleAvatar(),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+              ],
+            ),
+          ),
+          ListTile(
+            leading: CircleAvatar(),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+              ],
+            ),
+          ),
+          ListTile(
+            leading: CircleAvatar(),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+              ],
+            ),
+          ),
+          ListTile(
+            leading: CircleAvatar(),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+              ],
+            ),
+          ),
+          ListTile(
+            leading: CircleAvatar(),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+              ],
+            ),
+          ),
+          ListTile(
+            leading: CircleAvatar(),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+              ],
+            ),
+          ),
+          ListTile(
+            leading: CircleAvatar(),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+              ],
+            ),
+          ),
+          ListTile(
+            leading: CircleAvatar(),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+              ],
+            ),
+          ),
+          ListTile(
+            leading: CircleAvatar(
+              child: Text("2"),
+            ),
+            title: Text("Arham Sarwar"),
+            subtitle: Text("Coming...."),
+            trailing: Column(
+              children: [
+                Text("8:20 PM"),
+                CircleAvatar(
+                  radius: 15,
+                  child: Text("2"),
+                ),
+              ],
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
